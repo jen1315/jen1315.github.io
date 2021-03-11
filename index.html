@@ -149,6 +149,8 @@ Error message and password prompt
 
 <li>$:/config/Manager/Show</li>
 
+<li>$:/config/MissingLinks</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
@@ -168,6 +170,8 @@ Error message and password prompt
 <li>$:/config/Plugins/Disabled/$:/themes/tiddlywiki/readonly</li>
 
 <li>$:/config/RelinkOnRename</li>
+
+<li>$:/config/TextEditor/EnableToolbar</li>
 
 <li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit</li>
 
@@ -309,6 +313,9 @@ Error message and password prompt
 <div created="20210310161911029" modified="20210310161912892" title="$:/config/Manager/Show">
 <pre>tiddlers</pre>
 </div>
+<div created="20210311214330950" modified="20210311214330950" title="$:/config/MissingLinks">
+<pre>no</pre>
+</div>
 <div created="20210310155148660" modified="20210310222642934" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
 <pre>hide</pre>
 </div>
@@ -321,8 +328,8 @@ Error message and password prompt
 <div created="20210309230247467" modified="20210309230333597" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal">
 <pre>hide</pre>
 </div>
-<div created="20210310155210171" modified="20210311192141677" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
-<pre>show</pre>
+<div created="20210310155210171" modified="20210311204922744" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
+<pre>hide</pre>
 </div>
 <div created="20210309230239940" modified="20210309230245555" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/permaview">
 <pre>hide</pre>
@@ -337,6 +344,9 @@ Error message and password prompt
 <pre>yes</pre>
 </div>
 <div created="20210311192838445" modified="20210311192838445" title="$:/config/RelinkOnRename">
+<pre>yes</pre>
+</div>
+<div created="20210311214312191" modified="20210311214317527" title="$:/config/TextEditor/EnableToolbar">
 <pre>yes</pre>
 </div>
 <div created="20210310154932067" modified="20210310162238500" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
@@ -10275,7 +10285,7 @@ Error message and password prompt
 <div created="20210310163521826" modified="20210310163524770" title="$:/state/tab-1163638994">
 <pre>$:/core/ui/MoreSideBar/Plugins/Languages</pre>
 </div>
-<div created="20210309225803747" modified="20210311200459833" title="$:/state/tab-1749438307">
+<div created="20210309225803747" modified="20210311214333998" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
 <div created="20210310035230921" modified="20210310112654601" title="$:/state/tab-2065006209">
@@ -10284,10 +10294,10 @@ Error message and password prompt
 <div created="20210310154908860" modified="20210310154938243" title="$:/state/tab-29189628">
 <pre>$:/core/ui/TiddlerInfo/Tools</pre>
 </div>
-<div created="20210310000621150" modified="20210311200646041" title="$:/state/tab/moresidebar-1850697562">
-<pre>$:/core/ui/MoreSideBar/All</pre>
+<div created="20210310000621150" modified="20210311204938784" title="$:/state/tab/moresidebar-1850697562">
+<pre>$:/core/ui/MoreSideBar/Tags</pre>
 </div>
-<div created="20210309225452315" modified="20210311200840704" title="$:/state/tab/sidebar--595412856">
+<div created="20210309225452315" modified="20210311214456695" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Tools</pre>
 </div>
 <div created="20210310155115843" modified="20210310155121941" title="$:/state/tabs/controlpanel/toolbars-1345989671">
@@ -10326,7 +10336,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20210311201804267" list="[[Original Characters]] Linkmap Poems" modified="20210311201804267" title="$:/StoryList">
+<div list="[[Original Characters]] Poems" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20210310161926899" modified="20210310161930403" title="$:/theme">
@@ -10441,11 +10451,11 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20210310135736859" modified="20210310140546929" tags="story" title="At the Speed of Light">
+<div created="20210310135736859" modified="20210311202433171" tags="[[Original Story]]" title="At the Speed of Light">
 <pre>Antre follows his father to his interstellar journey. Helping him with the classification of alien species, one day he picks up a radio signal from far away. A request for help..
 </pre>
 </div>
-<div created="20210310141458083" modified="20210311200700037" tags="Meta" title="Hedra Tedron">
+<div created="20210310141458083" modified="20210311214428921" tags="Meta [[Original Characters]]" title="Hedra Tedron">
 <pre>[img[tetrapixel.png]] &lt;br \&gt;
 ''Description:'' &lt;br \&gt;
 Shape demon guardian of the 4D tetrahedron. Has 3 sides each one with its own personality. When seen on specific angles, they present 3 very unique styles. They can change size on their will. On their hand lays an Archeon(same species of Cheleon) they befriended in one of their space voyages.
@@ -10453,7 +10463,7 @@ Shape demon guardian of the 4D tetrahedron. Has 3 sides each one with its own pe
 ''Notes:'' &lt;br \&gt;
 They don't belong to any particular work or world. Their functions are mostly meta: a visual rapresentation of my muse(demon) that oversees the creation of my works. They are literally the part of my coscience that comments &quot;ok that sounds dumb&quot; to my ideas. </pre>
 </div>
-<div created="20210310135812760" modified="20210310172530084" tags="story" title="Hill under the Garden" type="text/vnd.tiddlywiki">
+<div created="20210310135812760" modified="20210311202423187" tags="[[Original Story]]" title="Hill under the Garden" type="text/vnd.tiddlywiki">
 <pre></pre>
 </div>
 <div title="italy.png" type="image/png">
@@ -10464,37 +10474,44 @@ They don't belong to any particular work or world. Their functions are mostly me
 &lt;&lt;toc &quot;Linkmap&quot;&gt;&gt;
 &lt;/div&gt;</pre>
 </div>
-<div created="20210310123618415" modified="20210311201200469" tags="Linkmap" title="Original Characters" type="text/vnd.tiddlywiki">
+<div created="20210310123618415" modified="20210311202523338" tags="Linkmap" title="Original Characters" type="text/vnd.tiddlywiki">
 <pre>&lt;ul&gt;
 &lt;li&gt;''Meta''&lt;br /&gt;
 characters that don't have a story of provenance or hop from a story to another &lt;br /&gt;
 &lt;div class=&quot;tc-table-of-contents&quot;&gt;
-&lt;&lt;toc &quot;Meta&quot;&gt;&gt;
+&lt;&lt;toc-selective-expandable &quot;Meta&quot;&gt;&gt;
 &lt;/div&gt;
 
 &lt;li&gt;''Original Story''&lt;br /&gt;
 characters that belong to one of my original stories &lt;br /&gt;
-[[Hill under the Garden]]&lt;br /&gt;
-[[At the Speed of Light]]
+&lt;div class=&quot;tc-table-of-contents&quot;&gt;
+&lt;&lt;toc-selective-expandable &quot;Original Story&quot;&gt;&gt;
+&lt;/div&gt;
 
 &lt;li&gt;''Fan-insert''&lt;br /&gt;
-original character inserted in a story not mine</pre>
+original character inserted in a story not mine
+&lt;div class=&quot;tc-table-of-contents&quot;&gt;
+&lt;&lt;toc-selective-expandable &quot;Fan-insert&quot;&gt;&gt;
+&lt;/div&gt;</pre>
 </div>
-<div created="20210309225114065" modified="20210311201205858" tags="Linkmap" title="Poems">
+<div created="20210309225114065" modified="20210311203239032" tags="Linkmap" title="Poems">
 <pre>[img[uk.png]] &lt;br \&gt;
-[[When I approach]]&lt;br \&gt;
-&lt;br \&gt;
+&lt;div class=&quot;tc-table-of-contents&quot;&gt;
+&lt;&lt;toc-selective-expandable &quot;English&quot;&gt;&gt;
+&lt;/div&gt;
 [img[italy.png]] &lt;br \&gt;
-[[Sospiro]]</pre>
+&lt;div class=&quot;tc-table-of-contents&quot;&gt;
+&lt;&lt;toc-selective-expandable &quot;Italian&quot;&gt;&gt;
+&lt;/div&gt;</pre>
 </div>
-<div created="20210310154233330" modified="20210311200713401" tags="Meta" title="Sei (vtuber)">
+<div created="20210310154233330" modified="20210311214441192" tags="Meta [[Original Characters]]" title="Sei (vtuber)">
 <pre>''Notes:'' &lt;br \&gt;
 My avatar for streams and other things I might do in the future. &lt;br \&gt;
 &lt;br \&gt;
 Model made on Vroid by me &lt;br \&gt;
 Whale blue hoodie made by &lt;a href=&quot;https://hulaflat.booth.pm/&quot;&gt;hulaflat&lt;/a&gt;</pre>
 </div>
-<div created="20210309225554504" modified="20210311200303909" tags="Poems" title="Sospiro">
+<div created="20210309225554504" modified="20210311203207946" tags="Poems Italian" title="Sospiro">
 <pre>Sospiro, le regole non scritte &lt;br \&gt;
 vuoto lasciano il capo &lt;br \&gt;
 e pesanti le viscere. &lt;br \&gt;
@@ -10510,7 +10527,7 @@ al fine volge infranta.</pre>
 <div title="uk.png" type="image/png">
 <pre>iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAYAAABU1PscAAABaklEQVRYhe2YO3bDIBBFnzhsyG5cmkVFq9CmKJPGWyJFMg4ZMjB8DPE5viVGo6e5xiBv76dTAIDL7YYY53a04P0BAPg4n3+NU/3aut4fSa24nqEBPomCrML7oxgeAGz8AU2mCfQQrTZa0QQHvnIZPgiss6HtOvDTVOvcDv/9YXzhbBu1wQlDg87tyWTg8TZauh5j+YSZNnqCE4YPzLDR2/WY7Xp9C7kbAWnw3I1K+0BtvRKJAV5ktI2R4QG2BiRq14aWEbt/1gAvrrWhYdTRZQshiGugh9waGInawH9lo9Pos/L0Bl4PsJrXr9BqbO+7L8F35RLSkaI2T5MBKXwN0o5OJ1UtqrMQMSK4c/u9ziVzvvJKG2oDmvDarw8P1mOjaKAmeNzdEvz9odVG1oA2PJ1UW+i18aeB2q730mMjMTCj6xItNu4GZnddotaGiSfzCTGP6rqE1oaNw6/quoTGhvjvNF0ws+sSORufZIpQ9Z0rdIEAAAAASUVORK5CYII=</pre>
 </div>
-<div created="20210309225433576" modified="20210311200255492" tags="Poems" title="When I approach">
+<div created="20210309225433576" modified="20210311203231539" tags="Poems English" title="When I approach">
 <pre>When I approach, &lt;br \&gt;
 everything explodes, &lt;br \&gt;
 overwhelming me, dragging me, &lt;br \&gt;
